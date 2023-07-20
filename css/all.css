@@ -1,0 +1,367 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0 auto;
+}
+
+.navbar li {
+  color: #d1d1d1;
+  margin-top: 40px;
+  transition: color 0.2s;
+}
+.navbar li a:hover {
+  color: #00ffa3;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-image {
+  background-image: url("../image/background-img.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-darkBlue {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.social-img {
+  max-width: 162px;
+  max-height: 162px;
+  border-radius: 40px;
+  transition: box-shadow 0.3s;
+}
+.social-img:hover, .social-img:active {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mr-4 {
+  margin-right: 16px;
+}
+
+.mb-7 {
+  margin-bottom: 28px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.mb-9 {
+  margin-bottom: 36px;
+}
+
+.py-10 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.py-18 {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.py-32 {
+  padding-top: 129px;
+  padding-bottom: 129px;
+}
+
+.py-40 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.gap-5 {
+  gap: 20px;
+}
+
+.gap-6 {
+  gap: 24px;
+}
+
+.width-2 {
+  max-width: 196px;
+}
+
+.width-3 {
+  max-width: 306px;
+}
+
+.width-4 {
+  max-width: 416px;
+}
+
+.width-5 {
+  max-width: 526px;
+}
+
+.width-6 {
+  max-width: 636px;
+}
+
+.width-7 {
+  max-width: 746px;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-primary {
+  color: #00ffa3;
+}
+
+.text-m {
+  font-size: 20px;
+}
+
+.text-l {
+  font-size: 24px;
+}
+
+.title-l {
+  font-size: 64px;
+}
+
+.display-1 {
+  font-size: 128px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+  background-color: white;
+  transition: box-shadow 0.3s;
+}
+.btn .material-icons {
+  vertical-align: middle;
+  font-size: 24px;
+}
+.btn:hover, .btn:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.card-group {
+  max-width: 49.0740740741%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  max-width: calc(50% - 12px);
+  padding: 16px;
+  border: 1px solid #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}/*# sourceMappingURL=all.css.map */

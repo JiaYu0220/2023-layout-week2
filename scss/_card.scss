@@ -1,0 +1,14 @@
+.card-group {
+  max-width: calc(636px / 1296px * 100%);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.card {
+  max-width: calc(50% - 12px);
+  padding: 16px;
+  border: 1px solid $gray-light;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
